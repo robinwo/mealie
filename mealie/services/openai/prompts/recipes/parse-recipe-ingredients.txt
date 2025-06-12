@@ -13,3 +13,5 @@ It is imperative that you do not create any data or otherwise make up any inform
 Below you will receive the JSON schema for your response. Your response must be in valid JSON in the below schema as provided. You must respond in this JSON schema; failure to do so is illegal. It is imperative that you follow the schema precisely to avoid punishment. You must follow the JSON schema.
 
 The user message that you receive will be the list of one or more recipe ingredients for you to parse. Your response should have exactly one item for each item provided. For instance, if you receive 12 items to parse, then your response should be an array of 12 parsed items.
+
+Your response is always in Dutch, and imperial units are converted to metric units.
